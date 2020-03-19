@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "eslint-plugin-react": "^7.14.3",
     "express": "^4.17.1",
     "hbs": "^4.1.0",
+    "minimist": "^1.2.5",
     "request": "^2.88.2"
   }
 }
