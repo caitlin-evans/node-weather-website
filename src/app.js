@@ -31,7 +31,7 @@ app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Need Help?',
     name: 'Caitlin Evans',
-    message: 'Email me at cevans@merkleinc.com to get help.'
+    message: 'Simply enter a location into the search bar and press enter to the see today\'s forecast! Yay!'
   });
 });
 
