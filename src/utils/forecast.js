@@ -10,7 +10,7 @@ const forecast = (lat, long, callback) => {
     } else {
       const data = body.currently;
       const degrees = data.temperature;
-      const rain = (data.precipProbability*100).toFixed(2);
+      const rain = (data.precipProbability*100).toFixed();
       const dailyData = body.daily.data[0];
       const tempHigh = dailyData.temperatureHigh;
       const tempLow = dailyData.temperatureLow;
